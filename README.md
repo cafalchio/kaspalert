@@ -1,6 +1,6 @@
 # kaspalert
 
-It will play You Suffer by Napalm Death when kaspa reaches the treshold (current 0.1 USD)
+It will play You Suffer by Napalm Death when kaspa reaches the treshold (current 0.2 USD)
 
  * git clone "this repo"
  * cd kaspalert
