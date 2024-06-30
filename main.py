@@ -11,7 +11,7 @@ def get_price():
             response.raise_for_status()
             data = response.json()
             price = data.get('kaspa', {}).get('usd')
-            if response.status_code == 200 and price >= 0.1:
+            if response.status_code == 200 and price >= 0.2:
                 sound.play()
                 time.sleep(2)
                 return
